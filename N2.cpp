@@ -14,7 +14,7 @@ int main() {
 		if (a > c) a = a + b;
 		else a = b + c;
 	}
-	if (c >= b && c >= a) {
+	else if (c >= b && c >= a) {
 		if (a > b) a = a + c;
 		else a = c + b;
 	}
